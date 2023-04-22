@@ -50,6 +50,6 @@ public class ChromeTestCase {
     @AfterTest
     public void tearDown()
     {
-        System.out.println("URL "+driver.getCurrentUrl());
+        driver.quit();
     }
 }
